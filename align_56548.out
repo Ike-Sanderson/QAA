@@ -1,0 +1,7 @@
+	STAR --runThreadN 8 --runMode alignReads --outFilterMultimapNmax 3 --outSAMunmapped Within KeepPairs --alignIntronMax 1000000 --alignMatesGapMax 1000000 --readFilesCommand zcat --readFilesIn /projects/bgmp/ikes/bioinfo/Bi623/QAA/trimcontrol/23_4A_forward_paired.fq.gz /projects/bgmp/ikes/bioinfo/Bi623/QAA/trimcontrol/23_4A_reverse_paired.fq.gz --genomeDir /projects/bgmp/ikes/bioinfo/Bi623/QAA/mouse_GRCm39_dna_ens110_STAR_2.7.10b --outFileNamePrefix ikes_24_4A_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Sep 12 09:12:13 ..... started STAR run
+Sep 12 09:12:13 ..... loading genome
+Sep 12 09:12:28 ..... started mapping
+Sep 12 09:18:38 ..... finished mapping
+Sep 12 09:18:39 ..... finished successfully
